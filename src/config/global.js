@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Atención al Cliente en el Retail',
+    descripcionCurso:
+      'El propósito de este componente de formación es ayudar a los aprendices a desarrollar una excelente Atención al Cliente teniendo en cuenta que es muy importante en el mercado y de su buena atención depende la fidelización y aumento de la clientela.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/imagen.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,121 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Definiciones en el Retail',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Atender al cliente en el Retail',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Conocer al cliente',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Clasificación de los clientes',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Necesidades, deseos y demanda de los clientes',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Momentos de verdad con el cliente',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Contingencias',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de servicio al cliente',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Comunicación asertiva',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Comunicación verbal y no verbal',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Pautas de actuación',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Ciclo de servicio',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Triángulo de servicio',
+            hash: 't_3_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Protocolos de la organización',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Protocolo de atención',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Etiqueta y normas de cortesía',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Satisfacción del cliente',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Trazabilidad del servicio',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo:
+              'Tipos de herramientas de evaluación de satisfacción del cliente',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Trámite de PQRS',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Registro de la información',
+            hash: 't_5_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +200,118 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Técnicas de servicio al cliente',
+      referencia: 'Blanco, C. (2013). Comunicación y atención al cliente.',
+      tipo: 'Libro',
+      link: 'https://www.google.com/', // falta link
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Técnicas de servicio al cliente',
+      referencia: 'Goodman, J. (2014). Atención estratégica al cliente.',
+      tipo: 'Libro',
+      descarga: '/downloads/prueba.pdf', // falta link
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Atención al cliente',
+      significado:
+        'Es el servicio que se presta a las personas que adquieren un bien o servicio. La atención al cliente comprende desde el recibimiento y la información antes de realizar una compra hasta el seguimiento postventa.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>Branding</em>',
+      significado:
+        'Es ayudar a los consumidores a entender lo que ofreces y en qué te diferencias, de manera simple y fácil. Pero no es solo la Propuesta Única de Venta.',
+    },
+    {
+      termino: 'Cliente',
+      significado:
+        'Es la persona que utiliza o adquiere, de manera frecuente u ocasional los servicios o productos que pone a su disposición un profesional, un comercio o una empresa.',
+    },
+    {
+      termino: 'Comunicación',
+      significado:
+        'Es el proceso que consiste en la transmisión e intercambio de mensajes entre un emisor y un receptor.',
+    },
+    {
+      termino: 'Información',
+      significado:
+        'Conjunto de datos ya procesados y ordenados par su comprensión, que aportan nuevos conocimientos a un individuo o sistema sobre un asunto, materia, fenómeno o ente determinado.',
+    },
+    {
+      termino: 'Momentos de verdad',
+      significado:
+        'Es un episodio en el cual el cliente entra en contacto con cualquier aspecto de la empresa y se crea una impresión sobre la calidad del servicio.',
+    },
+    {
+      termino: 'Protocolo',
+      significado:
+        'Conjunto de reglas ya sea por normas o por costumbre, se establecen para actos oficiales o solemnes, ceremonias y otros eventos.',
+    },
+    {
+      termino: 'Satisfacción',
+      significado:
+        'Estado mental de goce por sentir que ya nada se necesita para lograr la plenitud ya sea física o mental.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'Dar o prestar apoyo o asistencia a alguien valiéndonos de un conjunto de medios materiales o inmateriales.',
+    },
+    {
+      termino: 'Trámite',
+      significado:
+        'Proceso o procedimiento legal o administrativo para resolver un litigio o discutible. Cada uno de los estados y diligencias precisas para la conclusión de un negocio.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'Posibilidad de identificar el origen y las diferentes etapas de un proceso de producción y distribución de bienes de consumo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Blanco García, C. (2013). Comunicación y atención al cliente. Madrid, Spain: Macmillan Iberia, S.A.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42955',
+    },
+    {
+      referencia:
+        'Grönroos, C. (1994). Marketing y gestión de servicios: la gestión de los momentos de la verdad y la competencia en los servicios. Ediciones Díaz de Santos.',
       link: '',
+    },
+    {
+      referencia:
+        'FERNÁNDEZ VERDE, L. O. L. A., & Fernández Rico, E. (2017). Comunicación empresarial y atención al cliente 2. Ediciones Paraninfo, SA.',
+      link: '',
+    },
+    {
+      referencia:
+        'Marielos Ramos (2020). Universidad de San Carlos de Guatemala. Etiqueta y normas de cortesía.',
+      link: '',
+    },
+    {
+      referencia:
+        'Mariscal, M. (2009). Manual de proceso de la información. México D.F, Mexico: Editorial Miguel Ángel Porrúa.',
+      link:
+        'https://repositorio.sena.edu.co/bitstream/11404/3672/1/manual_procesos_procedimientos.pdf',
+    },
+    {
+      referencia:
+        'Asociación Española para la Calidad. (s.f.). Cómo medir la satisfacción del cliente.',
+      link:
+        'https://www.aec.es/c/document_library/get_file?folderId=53412&name=DLFE-1830.pdf',
+    },
+    {
+      referencia:
+        'Quiñones, M. E. V. (2007). Calidad y servicio. Concepto y herramientas. Universidad de la Sabana.',
+      link: '',
+    },
+    {
+      referencia: 'Protocolo. Claves para su gestión. (s. f.).',
+      link:
+        'https://www.unisabana.edu.co/feria-del-libro-2018/protocolo-claves-para-su-gestion/',
     },
   ],
   creditos: [
@@ -136,13 +320,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Claudia Johana Gómez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,9 +334,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -160,24 +344,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Desarrollador <i>full-stack</i> Junior',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'María Alejandra Vera Briceño',
+          cargo: 'Animador y producción audiovisual',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Actividad didáctica',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -185,24 +369,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'falta nombre',
+          cargo: 'Validador de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'falta nombre',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
