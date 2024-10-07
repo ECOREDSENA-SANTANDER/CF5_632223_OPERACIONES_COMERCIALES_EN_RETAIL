@@ -9,6 +9,13 @@
           i.fas.fa-info
       h1 Introducción
     
+    p.mb-5 Una adecuada atención al cliente es muy importante en el mercado y de su buena atención depende la fidelización y aumento de la clientela, para comenzar a profundizar en este interesante tema, lo invitamos a explorar el siguiente video:
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/c1LwAMyN3Xw&t=4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+
 </template>
 
 <script>

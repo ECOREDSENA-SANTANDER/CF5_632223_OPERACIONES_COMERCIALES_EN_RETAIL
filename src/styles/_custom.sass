@@ -27,10 +27,10 @@
     transform: translateY(0px)
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
-    color: #0a0a0a
+  color: #0a0a0a
 
 .titulo-principal.color-secundario .titulo-principal__numero span 
-    color: #0a0a0a
+  color: #0a0a0a
 
 .banner-principal .tarjeta 
   img, svg 
@@ -48,20 +48,130 @@
 
 
 .banner-principal__row 
-    justify-content: space-around
+  justify-content: space-around
 
 .banner-interno__fondo    
   background-image: url("../assets/curso/portada/portada.png") !important
 
-
 .titulo-sexto.color-secundario 
-    border-left-color: #3AE3FE !important
+  border-left-color: #3AE3FE !important
 
 .titulo-segundo:after 
-    content: ''
-    display: block
-    height: 5px
-    width: 140px
-    border-left: solid 50px
-    border-left-color: #3AE3FE
-    background-color: #e8e8e8
+  content: ''
+  display: block
+  height: 5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #3AE3FE
+  background-color: #e8e8e8
+
+// subtitulos
+
+.icon 
+  max-width: 35px
+  left: 65px
+  position: absolute
+
+.bg-img-blue
+  padding: 14px
+  background-color: #0D66BF
+  border-radius: 0px 0px 50px 0px
+
+// fondos
+
+.borde-redondo
+  border-radius: 25px
+
+.bgrosado
+  background-color: #F7CAC3
+
+.bgazulclaro
+  background-color: #D2E1F1
+
+.bgazuloscuro
+  background-color: #53BCED
+
+// slyder tema 1
+
+.fondo1
+  background: url('../assets/curso/temas/tema1/fondo1.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.tarjetaf
+  background-color: #fff
+  border-radius: 15px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #FFDC39
+  border-radius: 50%
+  color: #0D66BF
+
+.slyder-a__bullets__item
+    background-color: #D2E1F1
+    border-color: #D2E1F1
+
+.slyder-a__bullets__item--active 
+    background-color: #0D66BF
+    border-color: #727997
+    opacity: 1
+
+//viñetas
+  
+.texto-azul
+  color: #0D66BF
+
+
+///////// Card hover --------------------------------------
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #0D66BF !important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: #fff !important
+
+.cambio
+  background-color: #FF725D
+
+// tab A
+
+.tabs-a__tab
+  background-color: #FF725D
+
+// cajon primario azul
+
+.cajon.color-primario 
+  background-color: #D2E1F1
+
+// acordeon
+
+.tarjeta--azul
+  background-color: #FF725D
+
+.acordion__accion__btn--b 
+    border: 1px solid #FFD947
+    background-color: #FFD947
+    color: #0D66BF
+
+.estilo1.acordion__activo
+  background: #F7CAC3
