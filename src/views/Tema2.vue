@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Atender al cliente en el Retail
+      h1 Atender al cliente en el #[em Retail]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col.md-8.col-lg-3
@@ -85,31 +85,22 @@
       .col-lg-8.order-2.order-lg-1
         TabsA.color-acento-botones.mb-5
           .tarjeta.bgrosado.p-4(titulo="Amable")
-            h4 Amable
             p Persona amable con la que es fácil entenderse y entablar una conversación; puede ser lento en la toma de decisiones.
           .tarjeta.bgrosado.p-4(titulo="Agresivo")
-            h4 Agresivo
             p Persona de difícil trato por ser impaciente e intolerante.
           .tarjeta.bgrosado.p-4(titulo="Altivo")
-            h4 Altivo
             p Persona que pretende que todos estén a su servicio porque considera que es importante para la empresa.
           .tarjeta.bgrosado.p-4(titulo="Desconfiado")
-            h4 Desconfiado
             p Persona que cree que los demás lo quieren engañar; el trato con este tipo de personas es complejo.
           .tarjeta.bgrosado.p-4(titulo="Decidido")
-            h4 Decidido
             p Persona que toma sus decisiones con rapidez, declara abiertamente sus intenciones; son clientes fáciles de tratar.
           .tarjeta.bgrosado.p-4(titulo="Indeciso")
-            h4 Indeciso
             p Casi siempre se hace acompañar por otra persona, desconoce o no tiene claro lo que quiere, suele ser tímido y tarda mucho en decidir.
           .tarjeta.bgrosado.p-4(titulo="Especulador")
-            h4 Especulador
             p Este tipo de cliente siempre busca acuerdos beneficiosos; el trato con este tipo de clientes es complejo.
           .tarjeta.bgrosado.p-4(titulo="Exigente")
-            h4 Exigente
             p Requiere de una atención inmediata y prioritaria; estas personas suelen ser inseguras y la mejor forma de actuar es tratarle con mucha delicadeza.
           .tarjeta.bgrosado.p-4(titulo="Discutidor")
-            h4 Discutidor
             p Persona que piensa que tiene la razón y que rebate todos los argumentos. Se le debe tratar con cortesía, firmeza y argumentos claros.
       .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure

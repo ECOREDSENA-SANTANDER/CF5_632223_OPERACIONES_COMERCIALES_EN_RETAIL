@@ -201,15 +201,19 @@ export default {
   complementario: [
     {
       tema: 'Técnicas de servicio al cliente',
-      referencia: 'Blanco, C. (2013). Comunicación y atención al cliente.',
+      referencia:
+        'Gambarota, D. M., & Lorda, M. A. (2017). El turismo como estrategia de desarrollo local. Revista geográfica venezolana, 58(2), 346-359. ',
       tipo: 'Libro',
-      link: 'https://www.google.com/', // falta link
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=2q5JDwAAQBAJ&oi=fnd&pg=PT24&dq=manejos+de+inventarios&ots=ljO-aSPDk3&sig=heE07m3Xxc8GrgDv0poRsUKwVx8#v=onepage&q=manejos%20de%20inventarios&f=false ',
     },
     {
       tema: 'Técnicas de servicio al cliente',
-      referencia: 'Goodman, J. (2014). Atención estratégica al cliente.',
+      referencia:
+        'Vélez Maya, Tulio. LogíStica Empresarial: Gestión Eficiente Del Flujo de Suministros. ',
       tipo: 'Libro',
-      descarga: '/downloads/prueba.pdf', // falta link
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_ebooks0003578&context=L&vid=SENA&lang=es_ES&search_scope=sena_completo&adaptor=Local%20Search%20Engine&tab=sena_completo&query=any%2Ccontains%2Cmanejo%20%20de%20inventarios&offset=0 ',
     },
   ],
   glosario: [
@@ -272,9 +276,8 @@ export default {
   referencias: [
     {
       referencia:
-        'Blanco García, C. (2013). Comunicación y atención al cliente. Madrid, Spain: Macmillan Iberia, S.A.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/42955',
+        'Escudero Serrano, M. J. (2012). Comunicación y atención al cliente. Ediciones Paraninfo, SA.',
+      link: '',
     },
     {
       referencia:
@@ -290,12 +293,6 @@ export default {
       referencia:
         'Marielos Ramos (2020). Universidad de San Carlos de Guatemala. Etiqueta y normas de cortesía.',
       link: '',
-    },
-    {
-      referencia:
-        'Mariscal, M. (2009). Manual de proceso de la información. México D.F, Mexico: Editorial Miguel Ángel Porrúa.',
-      link:
-        'https://repositorio.sena.edu.co/bitstream/11404/3672/1/manual_procesos_procedimientos.pdf',
     },
     {
       referencia:

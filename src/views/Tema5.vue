@@ -94,7 +94,7 @@
           h5 Figura 1. 
           | Trazabilidad
         figure
-          img(src='@/assets/curso/temas/tema5/imagen3.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema5/imagen3.svg', alt='La imagen representa un ciclo de trazabilidad dentro de una cadena de suministro. Comienza con la obtención de materias primas, que son transportadas a los procesadores. Luego, los productos son enviados a centros de distribución, desde donde se transportan hacia puntos de venta. El ciclo resalta el flujo continuo entre transporte, procesadores, distribución y venta, garantizando la trazabilidad en cada etapa.')
 
     p.mb-4.mt-5 Se debe tener en cuenta lo siguiente:
 
@@ -271,7 +271,7 @@
           h5 Figura 2. 
           | Ciclo de la información
         figure
-          img.mb-4(src='@/assets/curso/temas/tema5/imagen9.svg', alt='Texto que describa la imagen')
+          img.mb-4(src='@/assets/curso/temas/tema5/imagen9.svg', alt='La imagen ilustra un ciclo de información dividido en cinco etapas. El proceso comienza con la recolección de datos, seguido por la evaluación de la información obtenida. Luego, se procede a tratar los datos, para después analizarlos detalladamente. Finalmente, el ciclo concluye con la difusión de los resultados, completando el flujo de gestión de información.')
         .cajon.color-primario.p-4.mb-4
           p Teniendo en cuenta lo anterior, debemos saber que la misión de la información es abarcar el control de calidad, la recopilación, el archivo y la accesibilidad a largo plazo a los datos recogidos y sus metadatos asociados.  
     
@@ -282,8 +282,34 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Técnicas a la hora de la recolección de la información
         img.icon(src='@/assets/curso/temas/icon.svg') 
 
-    p Por último, consulte algunas técnicas para tener en cuenta y que serán de apoyo en la recolección informativa a realizar:
-    
+    p.mb-4 Por último, consulte algunas técnicas para tener en cuenta y que serán de apoyo en la recolección informativa a realizar:
+
+    .row.fondo1.align-items-center.p-3(data-aos="fade-down")
+      .col-lg-12.col-md-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.mb-4
+        
+        .tarjetaf.p-3.mb-4
+          SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
+            .row.justify-content-center.p-4
+              .col-lg-11
+                h4 La lectura
+                p.mb-4 Es un modo de comunicación que se basa en decodificar símbolos escritos con la idea de construir o deducir un significado.
+                img(alt="" src="@/assets/curso/temas/tema5/sly1-1.svg")
+            .row.justify-content-center.p-4
+              .col-lg-11
+                h4 El subrayado
+                p.mb-4 Es básicamente seleccionar y recalcar la información elemental de un tema por medio de la cual podemos comprender un texto.
+                img(alt="" src="@/assets/curso/temas/tema5/sly1-2.svg")
+            .row.justify-content-center.p-4
+              .col-lg-11
+                h4 Toma de notas
+                p.mb-4 Es una destreza indispensable para el investigador que se basa en anotar toda idea, conceptos o información relevante para el estudio en cuestión.
+                img(alt="" src="@/assets/curso/temas/tema5/sly1-3.svg")
+            .row.justify-content-center.p-4
+              .col-lg-11
+                h4 El resumen
+                p.mb-4 Es una síntesis de referente al tema en estudio la cual puede ser informativa, (objetivo, métodos, resultados) o descriptiva (descripción breve de la investigación).
+                img(alt="" src="@/assets/curso/temas/tema5/sly1-4.svg")
 
 
 </template>
