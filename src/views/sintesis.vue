@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.png", alt="A continuación se presenta una sintesis del componente Manejo de inventarios en el retail, la cual hace referencia a la competitividad y gestión turística abarca cuatro áreas clave: la competitividad, que se enfoca en mejorar el rendimiento del sector turístico mediante modelos específicos; la gestión del turismo, que involucra a actores tanto públicos como privados, incluyendo la gestión compartida; la sostenibilidad, que busca equilibrar el crecimiento turístico con la conservación y sostenibilidad; y los prestadores de servicios turísticos, que se dividen en proveedores, su clasificación, los tipos de servicios que ofrecen y las agencias de viajes, proporcionando una visión integral para optimizar el sector.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

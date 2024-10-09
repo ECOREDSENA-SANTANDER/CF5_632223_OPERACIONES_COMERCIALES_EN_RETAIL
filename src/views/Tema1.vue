@@ -20,7 +20,6 @@
       .col-sm-12.col-md-12.col-lg-4.bgrosado.borde-redondo
         p.p-3 En la dinámica del mercado, el Mercadeo Mix o mezcla, tiene como objetivo analizar la conducta de los consumidores, clientes, usuarios y compradores lo cual genera acciones de satisfacción a sus necesidades basándose en cuatro componentes principales, también conocidos como las 4P: #[b Plaza, Producto, Precio y Promoción,] las cuales veremos a continuación:
 
-
     .row.fondo1.align-items-center.p-3(data-aos="fade-down")
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4

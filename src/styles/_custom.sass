@@ -77,13 +77,33 @@
   background-color: #0D66BF
   border-radius: 0px 0px 50px 0px
 
-// fondos
+// fondos y bordes
 
 .borde-redondo
   border-radius: 25px
 
+.borde-redondo-abajo
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.borde-redondo-arriba
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+
 .bgrosado
-  background-color: #F7CAC3
+  background-color: #FFCEC6
+
+.bgrosado2
+  background-color: #FFEAE7
+
+.bgnaranjaoscuro
+  background-color: #CC5B4A
+
+.bgnaranjaoscuro2
+  background-color: #994437
+
+.bgnaranja
+  background-color: #FF725D
 
 .bgazulclaro
   background-color: #D2E1F1
@@ -127,6 +147,20 @@
 .texto-azul
   color: #0D66BF
 
+.texto-naranja
+  color: #FF725D
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+.fas.fa-corneta:before 
+  content: url('../assets/curso/temas/speaker.svg')
 
 ///////// Card hover --------------------------------------
 
@@ -175,3 +209,10 @@
 
 .estilo1.acordion__activo
   background: #F7CAC3
+
+  // linea de tiempo
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right 
+  border: 2px solid #FFD947
+  background-color: #FFD947
+  color: #0D66BF
