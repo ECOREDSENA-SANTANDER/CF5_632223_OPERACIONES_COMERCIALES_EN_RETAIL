@@ -206,7 +206,7 @@
         .cajon.color-primario.p-4.mb-4
           p Cuando pensamos en los ciclos del servicio nos ponemos en los zapatos del cliente y podemos percibir la calidad de servicio que este recibe. Cada momento de verdad se puede representar gráficamente y la responsabilidad del ciclo del servicio, les corresponde a los empleados y directivos encargados de la prestación del servicio.
         p A continuación, se ilustra un ejemplo de un ciclo basado en la calidad del servicio:
-      .col-8.col-md-8.col-lg-4
+      .col-8.col-md-8.col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema3/imagen3.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-5

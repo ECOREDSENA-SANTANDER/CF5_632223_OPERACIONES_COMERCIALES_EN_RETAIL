@@ -8,8 +8,8 @@
       h1 Protocolos de la organización
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-8.col-md-8.col-lg-4
-        img(src='@/assets/curso/temas/tema4/imagen1.png', alt='')
+      .col-8.col-md-6.col-lg-4
+        img.mb-2(src='@/assets/curso/temas/tema4/imagen1.png', alt='')
       .col-sm-12.col-md-12.col-lg-8
         p El protocolo, al tratarse de un conjunto de reglas de cortesía y urbanidad, establecidas para cualquier tipo de ceremonia, abarca los distintos tipos de actos que se pueden organizar, como son los actos oficiales, regidos por el protocolo institucional; los actos del entorno laboral, regidos por el protocolo empresarial; y los actos que relacionan distintos países con culturas diversas, regidos por el protocolo internacional. 
         p Todos ellos tienen unas normas comunes, basadas en los usos y costumbres y luego, tienen unas normas específicas según el tipo de protocolo que sea, teniendo las siguientes precisiones:
@@ -199,7 +199,7 @@
               span.texto-azul #[b 10]
             span.mb-0 Tratar de decir por favor y no olvidar dar las gracias.
           li 
-      .col-6.col-md-6.col-lg-3
+      .col-6.col-md-6.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema4/imagen5.png', alt='')
   
 

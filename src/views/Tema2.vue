@@ -81,8 +81,8 @@
     p.mb-4 Es una práctica común en muchas empresas para poder gestionar las relaciones de manera más efectiva, cada cliente es diferente y las relaciones que se establecen entre la empresa y los mismos dependen además de los objetivos y la forma de proceder de la empresa, así como del tipo de cliente.
     p.mb-4 El mercado clasifica los distintos tipos de clientes bajo los criterios que tienen que ver con la relación cliente-empresa. Por ejemplo, según su personalidad, el cliente puede ser: 
 
-    .row
-      .col-lg-8.order-2.order-lg-1
+    .row.justify-content-center.align-items-center
+      .col-lg-8.col-md-12.col-sm-12
         TabsA.color-acento-botones.mb-5
           .tarjeta.bgrosado.p-4(titulo="Amable")
             p Persona amable con la que es fácil entenderse y entablar una conversación; puede ser lento en la toma de decisiones.
@@ -102,9 +102,8 @@
             p Requiere de una atención inmediata y prioritaria; estas personas suelen ser inseguras y la mejor forma de actuar es tratarle con mucha delicadeza.
           .tarjeta.bgrosado.p-4(titulo="Discutidor")
             p Persona que piensa que tiene la razón y que rebate todos los argumentos. Se le debe tratar con cortesía, firmeza y argumentos claros.
-      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure
-          img(src="@/assets/curso/temas/tema2/imagen2.png", alt="alt", style="width:450px;").m-auto
+      .col-lg-4.col-md-4.col-5
+        img(src="@/assets/curso/temas/tema2/imagen2.png", alt="alt", style="width:450px;").m-auto
 
     p.mb-4 Esta clasificación de los clientes es específica para cada caso en función de la personalidad de cada uno, pero hay que tener claro que hay que utilizar las habilidades sociales como la empatía y asertividad; y en todo caso comportarse con respeto al tratar con cada uno de los clientes, nos darán el éxito en la atención.
     
@@ -127,33 +126,33 @@
         .tarjetaf.p-3.mb-4
           SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 p.mb-4 La necesidad de un cliente es un factor que coloca sus expectativas en función de la solución que se le pueda brindar, las empresas deben organizar sus necesidades de forma mucho más complicada de lo que lo haría un cliente o una unidad familiar. Este tipo de fenómeno o problema requiere de una solución.
                 p.mb-4 Las soluciones se pueden resolver de diferente manera, considerando lo anterior se puede decir que usted mismo puede hacer la limpieza del hogar si compra el material necesario para hacerlo o por el contrario puede contratar un servicio de limpieza que lo haga.
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema2/sly1-1.png")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 p.mb-4 Si las organizaciones fueran consecuentes con las necesidades de sus clientes, no determinarían qué tipo de servicio busca cada uno de ellos. Lo que determinan las necesidades, en cierta forma es que ese cliente potencial requiere de proveedores de servicios que ofrezcan soluciones aceptables al respecto.
                 p.mb-4 Los clientes también tienen ciertos deseos en relación a la forma en la que necesita que su proveedor los trate.
                 p.mb-4 Fundamentalmente, por ejemplo, no todos los bancos proporcionan a los clientes los mismos servicios ya que cada uno de ellos tiene sus propias necesidades.
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema2/sly1-2.png")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 p.mb-4 Teniendo en cuenta lo anterior, las expectativas también reciben la influencia de factores externos. Esto nos indica que es importante lo que los clientes conocen sobre el trabajo de un proveedor de servicios ya que ellos se comunican boca a boca y cada uno habla de su experiencia sea esta buena o mala.
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema2/sly1-3.png")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 p.mb-4 El mercado debe plantear unas actividades de comunicación de marketing para la venta personal y también hacer campañas de publicidad para generar expectativas sobre sus productos y servicios. Para el comercio es muy importante la imagen que tengan las empresas tanto a nivel local como global.
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema2/sly1-4.png")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 p.mb-4 Cada cliente tiene una necesidad o deseo distintos de cómo quiere ser tratado, por esto es que las empresas no satisfacen esas necesidades porque considera que todos deben ser tratados de igual manera, para poder conocer las necesidades de cada uno se deben segmentar, ahí encontrará las diferencias que hay entre unos y otros, en el caso de los servicios es aún más difícil ya que muchos clientes se relacionan entre sí y están enterados de las concesiones que se les hacen a unos y no a otros.
                 p.mb-4 Los servicios son fenómenos complejos y la producción de los mismos una ardua labor.
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema2/sly1-5.png")
 
     separador
@@ -175,13 +174,13 @@
       h2 2.5 Contingencias
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul estilo1")
-      .row.justify-content-center(titulo="Notificación al cliente")
+      .row(titulo="Notificación al cliente")
         .col-sm-12.col-md-12.col-lg-7.mb-4.mb-md-0
           p.mb-4 Toda empresa debe analizar las necesidades indicadas por el cliente y determinar un plan para abordarlas. Se deben tener en cuenta las reacciones del mismo, esto será clave. Las empresas deben pensar en cómo afectará el escenario al cliente para determinar cómo reaccionar ante la necesidad.
           p.mb-4 Por ejemplo: los huéspedes de un hotel estaban confundidos y no tenían ninguna instrucción de la administración, sobre qué hacer en la situación de un apagón (ausencia de energía). Si todos los empleados del hotel estuvieran al tanto del plan de contingencia, habrían podido informar a los huéspedes cómo se resolvería el problema.
         .col-8.col-md-8.col-lg-4
           img(src='@/assets/curso/temas/tema2/acor1-1.png', alt='Texto que describa la imagen')
-      .row.justify-content-center(titulo="Encontrar una solución")
+      .row(titulo="Encontrar una solución")
         .col-sm-12.col-md-12.col-lg-7.mb-4.mb-md-0
           p.mb-4 En todo plan de contingencia, se debe contactar a los clientes lo antes posible para notificarles de la situación. La compañía siempre debe tener un equipo o departamento a cargo de contactar a los clientes cuando surjan estas situaciones.
           p.mb-4 Toda empresa debe tener una solución, aunque sea temporal, para ofrecer a los clientes. Todo cliente debe entender que a veces suceden cosas fuera del control de la empresa, pero aun así se sentirán molestos si no hay una pronta solución al problema. Algunas situaciones estarán fuera del control de la empresa. Por esto es muy importante contar con un plan de contingencia que ayudará a evitar posibles problemas con los clientes.

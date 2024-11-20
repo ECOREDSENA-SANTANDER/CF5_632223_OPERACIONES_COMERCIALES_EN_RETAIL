@@ -27,32 +27,32 @@
         .tarjetaf.p-3.mb-4
           SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Producto
                 p.mb-4 El mercado es todo lo que se ofrece para su consecución, uso o consumo y que puede satisfacer las necesidades o deseos de los clientes.
                 p.mb-4 Las decisiones que se tomen al respecto incluyen la formulación y presentación del producto, el #[em packaging] (empaquetado) el desarrollo de la marca-producto, etc.
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema1/sly1-1.png")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Precio
                 p.mb-4 En la navegación simple, en la segunda fase (Precio) se debe dejar el párrafo de la siguiente manera: 
                 p.mb-4 Este concepto se refiere a la cantidad de dinero por la que intercambiamos un producto o servicio. Las formas de pago que se pueden utilizar son, créditos, descuentos y promociones.
                 p.mb-4 Para poder comprobar los precios es necesario hacer una investigación de mercado donde se vea, entre otras cosas, cuánto vale un producto similar y cuánto está dispuesto a pagar un consumidor o cliente por él.
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema1/sly1-2.png")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Plaza
                 p.mb-4 Se refiere a los canales donde se comercializa el producto o servicio al consumidor. La distribución se realiza desde el área de despacho de la empresa, hasta que lo recibe el consumidor. Este proceso incluye logística, puntos de venta #[em offline] y comercio #[em online (ecommerce)].
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema1/sly1-3.png")
             .row.justify-content-center.p-4
-              .col-lg-7
+              .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Promoción
                 p.mb-4 Se refiere al conjunto de actividades que las empresas realizan para comunicarse con sus clientes o clientes potenciales con el fin de informar, persuadir y generar interés en sus productos o servicios, así como en su marca en general. Hay que tener en cuenta que para trabajar la promoción se usarán las distintas estrategias de comunicación de marca, publicidad y ventas.
                 p.mb-4 Las operaciones #[em (offline y online)] que están dentro de los ámbitos del #[em branding] (marca) la publicidad, las relaciones públicas y la promoción de ventas (fuerza de venta).
-              .col-lg-4
+              .col-lg-4.col-md-6.col-9
                 img(alt="" src="@/assets/curso/temas/tema1/sly1-4.png")
 
     .mb-4.mt-5.d-flex.ps-lg-0

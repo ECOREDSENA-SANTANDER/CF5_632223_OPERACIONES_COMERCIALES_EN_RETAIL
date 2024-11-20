@@ -260,7 +260,7 @@
             p.mb-0.text-center.text-white Es una recomendación o comunicación de una idea o propuesta para mejorar el servicio o la gestión de la entidad.
 
     separador
-    #t_5_3.titulo-segundo.mb-5
+    #t_5_4.titulo-segundo.mb-5
       h2 5.4 Registro de la información
 
     p.mb-4 El proceso de la información se refiere a las actividades que deben estar contempladas en un plan de trabajo de acuerdo con los requerimientos de información. Explore el ciclo de la información:
