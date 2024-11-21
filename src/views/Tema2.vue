@@ -38,8 +38,8 @@
     p.mb-4 Se hace necesario para conocer al cliente, analizar el papel que cada persona juega en un proceso de compra, para así diferenciar los siguientes tipos de cliente: 
 
     .row.justify-content-center.mb-5
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/tarjeta1-1.png", alt="alt")
@@ -47,8 +47,8 @@
             h4.mb-3.text-center El que decide
             p.mb-0.text-center.text-white Es la persona que toma la decisión final sobre la compra.
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/tarjeta1-2.png", alt="alt")
@@ -56,8 +56,8 @@
             h4.mb-3.text-center El que ejecuta
             p.mb-0.text-center.text-white Es la persona que realiza los trámites de compra.
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/tarjeta1-3.png", alt="alt")
@@ -65,8 +65,8 @@
             h4.mb-3.text-center El que influye
             p.mb-0.text-center.text-white Es la persona que aconseja sobre la compra.
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/tarjeta1-4.png", alt="alt")

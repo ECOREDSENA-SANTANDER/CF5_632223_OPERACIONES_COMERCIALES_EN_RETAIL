@@ -223,8 +223,8 @@
     p.mb-4 Optimizar el sistema PQRS (Sistema de atención de Peticiones, Quejas, Reclamos y Sugerencias). Implica tener un proceso estructurado para recibir, evaluar, responder y hacer seguimiento de cada una de estas categorías. También requiere capacitación del personal, uso de tecnología adecuada para gestionar la información y un enfoque en la mejora continua. Un buen sistema PQRS no solo resuelve problemas, sino que también contribuye a una mejor experiencia para los clientes y a la mejora general de la organización.
 
     .row.justify-content-center.mb-5
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema5/tar1-1.png", alt="alt")
@@ -232,8 +232,8 @@
             h4.mb-3.text-center Peticiones
             p.mb-0.text-center.text-white Es la solicitud o requerimiento de una acción o atención. Las peticiones se encuentran enmarcadas dentro del Derecho de Petición consagrado en el Código Contencioso Administrativo, en el cual se dicta un tratamiento especial e independiente, las empresas deben resolver las peticiones dentro de los 15 días siguientes a la fecha de recibo.
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema5/tar1-2.png", alt="alt")
@@ -241,8 +241,8 @@
             h4.mb-3.text-center Quejas
             p.mb-0.text-center.text-white Son las expresiones de inconformidad por parte del cliente interno como del cliente externo, las quejas se colocan por algo o alguien en una institución por la inadecuada prestación de un servicio público o privado.
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema5/tar1-3.png", alt="alt")
@@ -250,8 +250,8 @@
             h4.mb-3.text-center Reclamos
             p.mb-0.text-center.text-white Pruebas que se exponen por una actuación considerada injusta, con un reclamo se exigen los derechos del cliente o usuario relacionados con la inadecuada prestación de los servicios que se ofrecen al cliente interno y al cliente externo.
 
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").borde-redondo
+      .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema5/tar1-4.png", alt="alt")
