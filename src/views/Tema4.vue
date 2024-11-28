@@ -31,13 +31,15 @@
       .col-sm-12.col-md-12.col-lg-8
         p La cortesía, parte fundamental del protocolo, es indispensable en el ámbito empresarial. Es importante tratar con educación tanto a compañeros, como superiores o subordinados y mantener un respeto por las jerarquías. En el entorno empresarial o laboral, cada rango está claramente diferenciado y es fundamental que cada uno conozca su posición y la haga respetar, a la vez que reconozca la posición de los demás y la respete.
         p Podemos así concluir que:
-        .cajon.color-primario.p-4.mb-4
-          p El protocolo es la comunicación no verbal de una institución, abarca las normas y prácticas que una organización sigue para transmitir su identidad, valores y objetivos a través de comportamientos y gestos formales. Esto incluye aspectos como la organización de eventos, la disposición en reuniones, el uso de símbolos y distintivos, y el cumplimiento de ciertas ceremonias y formalidades. A través del protocolo, una institución establece su presencia y comunica su ser de manera coherente y respetuosa tanto interna como externamente.
+        .cajon.color-primario.p-4
+          p El protocolo es la comunicación no verbal de una institución, abarca las normas y prácticas que una organización sigue para transmitir su identidad, valores y objetivos a través de comportamientos y gestos formales.
+          p Esto incluye aspectos como la organización de eventos, la disposición en reuniones, el uso de símbolos y distintivos, y el cumplimiento de ciertas ceremonias y formalidades. A través del protocolo, una institución establece su presencia y comunica su ser de manera coherente y respetuosa tanto interna como externamente.
       .col-8.col-md-8.col-lg-4
         img(src='@/assets/curso/temas/tema4/imagen2.png', alt='')
     
-    p Esto incluye aspectos como la organización de eventos, la disposición en reuniones, el uso de símbolos y distintivos, y el cumplimiento de ciertas ceremonias y formalidades. A través del protocolo, una institución establece su presencia y comunica su ser de manera coherente y respetuosa tanto interna como externamente.
-
+    p Las relaciones son cada vez más comunes y numerosas, tanto las que mantienen los trabajadores de una misma empresa entre ellos, como las relaciones con otras empresas similares como con clientes o proveedores. 
+    p Cada vez se organizan más eventos promovidos por empresas, como conferencias, convenciones, congresos, etc. 
+    
     .mb-5.mt-5.d-flex.ps-lg-0
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Reglas de oro del protocolo empresarial 
@@ -136,7 +138,7 @@
             .row.justify-content-center(titulo="4")
               .col-md-5.mb-4.mb-md-0
                 h4 Protocolos de servicio al cliente
-                p El protocolo es un documento que se convierte en una herramienta muy importante para capacitar a los empleados que llegan a la organización ya que ahí están las instrucciones de cómo atender al cliente en cada uno de los procesos que se llevan a cabo y que tienen que ver con una buena atención.         
+                p Los protocolos de servicio al cliente son fundamentales para asegurar que los clientes reciban una atención consistente y de alta calidad, lo que a su vez puede evitar pérdidas económicas significativas. Un servicio al cliente deficiente no solo puede llevar a la pérdida de clientes, sino también a una mala reputación que puede impactar negativamente en el negocio.         
               .col-md-5
                 img(src='@/assets/curso/temas/tema4/lt1-4.png', alt='Texto que describa la imagen')
 

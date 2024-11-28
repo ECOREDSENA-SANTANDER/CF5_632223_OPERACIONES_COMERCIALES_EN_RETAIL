@@ -88,6 +88,8 @@
     #t_5_1.titulo-segundo.mb-5
       h2 5.1 Trazabilidad del servicio
 
+    p.mb-4 La trazabilidad del servicio es el seguimiento o sondeo que se hace del producto o servicio según los procedimientos establecidos con el fin de conocer la ubicación y trayectoria del producto o servicio a lo largo de la cadena logística para lo cual se utilizan algunas herramientas, la trazabilidad es la capacidad de reconstruir la historia y recorrido de un producto o servicio.
+
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido

@@ -36,7 +36,6 @@
             .row.justify-content-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Precio
-                p.mb-4 En la navegación simple, en la segunda fase (Precio) se debe dejar el párrafo de la siguiente manera: 
                 p.mb-4 Este concepto se refiere a la cantidad de dinero por la que intercambiamos un producto o servicio. Las formas de pago que se pueden utilizar son, créditos, descuentos y promociones.
                 p.mb-4 Para poder comprobar los precios es necesario hacer una investigación de mercado donde se vea, entre otras cosas, cuánto vale un producto similar y cuánto está dispuesto a pagar un consumidor o cliente por él.
               .col-lg-4.col-md-6.col-9

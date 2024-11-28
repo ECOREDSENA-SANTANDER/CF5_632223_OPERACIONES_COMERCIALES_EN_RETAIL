@@ -7,7 +7,7 @@
         span 2
       h1 Atender al cliente en el #[em Retail]
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-8.col.md-8.col-lg-3
         img.p-2(src='@/assets/curso/temas/tema2/imagen1.png', alt='')
       .col-sm-12.col-md-12.col-lg-5.bgazulclaro.borde-redondo
@@ -37,7 +37,7 @@
     p.mb-4 El concepto de cliente tiene un gran universo, permite plantear diferentes significados de cliente desde las distintas funciones de la empresa. Se puede considerar que la definición de cliente desde el punto de vista integral de la empresa es: el que constituye el eje principal de toda la actividad de la empresa, por lo que es la receptora final de todos los esfuerzos de esta última como organización. 
     p.mb-4 Se hace necesario para conocer al cliente, analizar el papel que cada persona juega en un proceso de compra, para así diferenciar los siguientes tipos de cliente: 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-3.col-md-6.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="fade-left").borde-redondo
           .crd_hover_txt--img
@@ -105,7 +105,7 @@
       .col-lg-4.col-md-4.col-5
         img(src="@/assets/curso/temas/tema2/imagen2.png", alt="alt", style="width:450px;").m-auto
 
-    p.mb-4 Esta clasificación de los clientes es específica para cada caso en función de la personalidad de cada uno, pero hay que tener claro que hay que utilizar las habilidades sociales como la empatía y asertividad; y en todo caso comportarse con respeto al tratar con cada uno de los clientes, nos darán el éxito en la atención.
+    p Esta clasificación de los clientes es específica para cada caso en función de la personalidad de cada uno, pero hay que tener claro que hay que utilizar las habilidades sociales como la empatía y asertividad; y en todo caso comportarse con respeto al tratar con cada uno de los clientes, nos darán el éxito en la atención.
     
     separador
     #t_2_3.titulo-segundo.mb-5
@@ -115,8 +115,8 @@
       .col-8.col-md-8.col-lg-4
         img.p-2(src='@/assets/curso/temas/tema2/imagen3.png', alt='')
       .col-sm-12.col-md-12.col-lg-8
-        h3.p-5.bgazulclaro.borde-redondo ¿Qué estimula a un cliente a querer un determinado servicio? 
-        h3.p-5.bgazulclaro.borde-redondo ¿Qué estimula a un cliente a querer un determinado servicio? 
+        p.p-5.bgazulclaro.borde-redondo.textogrande ¿Qué estimula a un cliente a querer un determinado servicio? 
+        p.p-5.bgazulclaro.borde-redondo.textogrande ¿Qué estimula a un cliente a querer un determinado servicio? 
         p Cada cliente tiene sus propias expectativas, pero estas son función de una amplia variedad de factores internos y externos. Veamos a continuación:
 
     .row.fondo1.align-items-center.p-3(data-aos="fade-down")
@@ -163,7 +163,7 @@
       .col-8.col-md-8.col-lg-4
         img.p-2(src='@/assets/curso/temas/tema2/imagen4.png', alt='')
       .col-sm-12.col-md-12.col-lg-8
-        h5.bgazuloscuro.borde-redondo.text-center.p-3 Los momentos de verdad son los instantes en los que los clientes y los proveedores se enfrentan. 
+        p.bgazuloscuro.borde-redondo.text-center.p-3 Los momentos de verdad son los instantes en los que los clientes y los proveedores se enfrentan. 
         p Y en el servicio al cliente son la secuencia de experiencias buenas y malas que los clientes pasan con una empresa al satisfacer una necesidad. Para una empresa, lo más relevante es el manejo que deben tener los empleados con los clientes. Hay que tener en cuenta que el trato debe ser cuidadoso, donde la prioridad son las necesidades emocionales.
         .cajon.color-primario.p-4.mb-4
           p Es una gran oportunidad para la empresa permitir que los clientes califiquen y comenten sobre los productos y servicios que reciben, la empresa puede obtener información directa y específica sobre lo que funciona bien y lo que necesita mejorar. Esto no solo ayuda a mantener la satisfacción del cliente, sino que también puede impulsar la innovación, el desarrollo de mejores soluciones y la rapidez para actuar ante cualquier imprevisto. 
@@ -172,6 +172,8 @@
     separador
     #t_2_5.titulo-segundo.mb-5
       h2 2.5 Contingencias
+
+    p.mb-4 Las empresas necesitan planificar lo inesperado para darle solución. Los planes de contingencia son la preparación para cualquier cosa que pueda suceder fuera de las operaciones diarias normales. Ninguna empresa quiere pensar en que ocurran estos escenarios y es muy posible que sucedan, por eso es importante tener un plan establecido. Ten en cuenta lo siguiente:
 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul estilo1")
       .row(titulo="Notificación al cliente")

@@ -57,7 +57,7 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Técnicas de la comunicación asertiva
         img.icon(src='@/assets/curso/temas/icon.svg') 
     
-    p.mb-5.mt-5 Teniendo en cuenta la importancia de la comunicación asertiva, se enumeran algunas técnicas para mejorarla, pueden ser especialmente útiles en el trabajo :
+    p.mb-5.mt-5 Teniendo en cuenta la importancia de la comunicación asertiva, se enumeran algunas técnicas para mejorarla, pueden ser especialmente útiles en el trabajo:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col.md-8.col-lg-4
