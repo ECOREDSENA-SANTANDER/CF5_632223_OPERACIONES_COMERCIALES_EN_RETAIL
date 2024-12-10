@@ -116,7 +116,7 @@
         img.p-2(src='@/assets/curso/temas/tema2/imagen3.png', alt='')
       .col-sm-12.col-md-12.col-lg-8
         p.p-5.bgazulclaro.borde-redondo.textogrande ¿Qué estimula a un cliente a querer un determinado servicio? 
-        p.p-5.bgazulclaro.borde-redondo.textogrande ¿Qué estimula a un cliente a querer un determinado servicio? 
+        p.p-5.bgazulclaro.borde-redondo.textogrande ¿Qué inspira al cliente a adquirirlo de un determinado proveedor? 
         p Cada cliente tiene sus propias expectativas, pero estas son función de una amplia variedad de factores internos y externos. Veamos a continuación:
 
     .row.fondo1.align-items-center.p-3(data-aos="fade-down")

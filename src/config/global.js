@@ -342,12 +342,12 @@ export default {
       autores: [
         {
           nombre: 'Yazmin Rocio Figueroa Pacheco',
-          cargo: 'Diseñador de contenidos digitales',
+          cargo: 'Diseñadora de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrollador <i>full-stack</i> Junior',
+          cargo: 'Desarrolladora <i>full-stack</i> Junior',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -362,12 +362,12 @@ export default {
       autores: [
         {
           nombre: 'Yineth Ibette González Quintero',
-          cargo: 'Validador de recursos educativos digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Diana Lizeth Lozada Díaz',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
