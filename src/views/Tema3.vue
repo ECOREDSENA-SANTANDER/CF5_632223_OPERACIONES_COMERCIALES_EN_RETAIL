@@ -297,9 +297,12 @@
 
     p El cliente es el eslabón más importante del triángulo del servicio, las estrategias y los actores de la empresa deben girar en torno a las motivaciones y necesidades del cliente.
     p Las tácticas que cada empresa fija deben ser estratégicas para poder cumplir con el propósito y razón de ser de la empresa. Esto garantiza que se prestará un servicio de calidad.
-
+   
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-8.col-lg-6
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1. 
+          | El triángulo del servicio
         img(src='@/assets/curso/temas/tema3/imagen5.svg', alt='El triángulo del servicio destaca la interacción entre tres elementos esenciales: los colaboradores que prestan el servicio, los sistemas que facilitan su ejecución, y la estrategia de servicio que guía el enfoque y los objetivos. Estos componentes deben estar alineados para asegurar una experiencia de servicio eficiente y satisfactoria.')
     
     .row.justify-content-center.align-items-center.mb-5

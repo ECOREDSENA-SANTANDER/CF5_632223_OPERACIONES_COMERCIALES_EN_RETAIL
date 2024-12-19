@@ -93,7 +93,7 @@
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1. 
+          h5 Figura 2. 
           | Trazabilidad
         figure
           img(src='@/assets/curso/temas/tema5/imagen3.svg', alt='La imagen representa un ciclo de trazabilidad dentro de una cadena de suministro. Comienza con la obtención de materias primas, que son transportadas a los procesadores. Luego, los productos son enviados a centros de distribución, desde donde se transportan hacia puntos de venta. El ciclo resalta el flujo continuo entre transporte, procesadores, distribución y venta, garantizando la trazabilidad en cada etapa.')
@@ -270,7 +270,7 @@
     .row.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2. 
+          h5 Figura 3. 
           | Ciclo de la información
         figure
           img.mb-4(src='@/assets/curso/temas/tema5/imagen9.svg', alt='La imagen ilustra un ciclo de información dividido en cinco etapas. El proceso comienza con la recolección de datos, seguido por la evaluación de la información obtenida. Luego, se procede a tratar los datos, para después analizarlos detalladamente. Finalmente, el ciclo concluye con la difusión de los resultados, completando el flujo de gestión de información.')
